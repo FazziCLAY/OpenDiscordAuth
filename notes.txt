@@ -3,3 +3,8 @@
 04.02.2021: Main.java                100                              100
 04.02.2021: DiscordBot.java          ?                                100
 04.02.2021: Events.java              ?                                100
+
+
+
+
+TEST
