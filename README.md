@@ -20,6 +20,12 @@ codeCreator:
 command:
   Confirm: "confirm" # Команда подтверждения
   Cancel: "cancel"   # Команда отмены
+  
+roleRequires:
+  Enable: false
+  GuildId: ""
+  RolesIds: "0000000000,11111111"
+  LogicMode: "AND" # AND/OR
 
 giveTempCodeEvents:
   IsClickEvent: true # Включено ли событие нажатия на сообщение GiveTempCode
@@ -38,4 +44,5 @@ message:
   AccountCreatingConfirming: "Подтвердите привязку аккаунта $discord к вашему нику($nickname). Напишие в чат &a'confirm' - для подтверждения&r, &c'cancel' - для отмены&r."
   AuthorizationTimeout: "Время авторизации вышло."
   PlayerKickPluginDisabled: "Вас выгнали, потому что плагин авторизации отключен, и вы не вошли в систему."
+  NotOwnRequiresRoles: "Вы не владеете необходимыми ролями!"
 ```
