@@ -17,6 +17,12 @@ giveTempCodeEvents:
   ClickMode: 1
   HoverText: "&9~ Одноразовый код ~\n&rВаш код -&a $code\n\n&d(Нажмите что бы скопировать!)"
 
+roleRequires:
+  Enable: false
+  GuildId: ""
+  RolesIds: "0000000000,11111111"
+  LogicMode: "AND" # AND/OR
+
 message:
   SuccessfulAuthorization: "Успешная авторизация"
   CodeNotFound: "Код не найден."
@@ -28,3 +34,4 @@ message:
   AccountCreatingConfirming: "Подтвердите привязку аккаунта $discord к вашему нику($nickname). Напишие в чат &a'confirm' - для подтверждения&r, &c'cancel' - для отмены&r."
   AuthorizationTimeout: "Время авторизации вышло."
   PlayerKickPluginDisabled: "Вас выгнали, потому что плагин авторизации отключен, и вы не вошли в систему."
+  NotOwnRequiresRoles: "Вы не владеете необходимыми ролями!"

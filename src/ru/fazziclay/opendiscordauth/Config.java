@@ -19,6 +19,12 @@ public class Config {
     public static Integer giveTempCodeEventsClickMode = Main.pluginConfig.getInt("giveTempCodeEvents.ClickMode");
     public static String giveTempCodeEventsHoverText = Main.pluginConfig.getString("giveTempCodeEvents.HoverText");
 
+
+    public static boolean roleRequiresEnabled = Main.pluginConfig.getBoolean("roleRequires.Enable");
+    public static String roleRequiresGuildId = Main.pluginConfig.getString("roleRequires.GuildId");
+    public static String roleRequiresRolesIds = Main.pluginConfig.getString("roleRequires.RolesIds");
+    public static String roleRequiresLogicMode = Main.pluginConfig.getString("roleRequires.LogicMode");
+
     public static String messageSuccessfulAuthorization = Main.pluginConfig.getString("message.SuccessfulAuthorization");
     public static String messageCodeNotFound = Main.pluginConfig.getString("message.CodeNotFound");
     public static String messageNotYoursCode = Main.pluginConfig.getString("message.NotYoursCode");
@@ -29,4 +35,5 @@ public class Config {
     public static String messageAccountCreatingConfirming = Main.pluginConfig.getString("message.AccountCreatingConfirming");
     public static String messageAuthorizationTimeout = Main.pluginConfig.getString("message.AuthorizationTimeout");
     public static String messagePlayerKickPluginDisabled = Main.pluginConfig.getString("message.PlayerKickPluginDisabled");
+    public static String messageNotOwnRequiresRoles = Main.pluginConfig.getString("message.NotOwnRequiresRoles");
 }
