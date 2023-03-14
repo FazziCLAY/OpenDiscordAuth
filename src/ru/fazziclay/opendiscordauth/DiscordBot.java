@@ -93,6 +93,7 @@ public class DiscordBot extends ListenerAdapter {
                 }
             } else {
                 Utils.sendMessage(channel, Config.messageNotOwnRequiresRoles);
+                Utils.kickPlayer(Utils.getPlayerByUUID(tempCode.ownerUUID), Config.messageNotOwnRequiresRoles);
             }
 
             tempCode.delete();
